@@ -25,7 +25,7 @@ app = FastAPI()
 
 
 @app.post("/")
-async def get_student(patientParameters: Parameters):
+async def get_prediction(patientParameters: Parameters):
     predictionParams = [
         patientParameters.skinDarkening,
         patientParameters.hairGrowth,
