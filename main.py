@@ -50,6 +50,6 @@ async def get_prediction(patientParameters: Parameters):
     res = loaded_model.predict(predictionParams)
 
     if res:
-        return {"prediction": "Patient has a risk of PCOS"}
+        return {"atRisk": True}
     else:
-        return {"prediction": "Patient does not have a risk of PCOS"}
+        return {"atRisk": False}

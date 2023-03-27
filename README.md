@@ -1,10 +1,10 @@
 # PCOS Prediction API
 
-PCOS Prediction API built with [FastAPI](https://fastapi.tiangolo.com/) and deployed on [render](https://www.render.com/).
+PCOS Prediction API built with FastAPI and deployed on [render](https://pcos-prediction-backend.onrender.com/).
 
 Machine learning model built with [Google Colab](https://colab.research.google.com/drive/1ivZ_Pe6acEc6dR4_60bSRhVjUfXGhYNe).
 
-Docs available at `/docs`.
+Docs available at [`/docs`](https://pcos-prediction-backend.onrender.com/docs/).
 
 ## Running on Local Machine
 
